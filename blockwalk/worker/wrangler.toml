@@ -1,0 +1,16 @@
+name = "blockwalk"
+main = "src/index.js"
+compatibility_date = "2025-06-01"
+
+# Comma-separated browser origins. Paths are not part of Origin.
+# localhost is always allowed by the worker so a phone on a local server can be tested.
+[vars]
+ALLOWED_ORIGINS = "https://magger1024.github.io"
+
+# Secrets — set with `wrangler secret put`, never commit them:
+#   PASSCODE
+#   GOOGLE_CLOUD_PROJECT
+#   GOOGLE_SERVICE_ACCOUNT_JSON
+#   GOOGLE_MAPS_API_KEY
+#   TESSIE_API_TOKEN          (optional, Send to Tesla)
+#   TESSIE_VIN                (optional)

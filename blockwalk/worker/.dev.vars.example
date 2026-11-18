@@ -1,0 +1,11 @@
+# Copy to .dev.vars for `wrangler dev`. .dev.vars is gitignored.
+# Do not put a real private key in this example.
+
+PASSCODE=choose-a-long-passcode
+GOOGLE_CLOUD_PROJECT=your-gcp-project-id
+GOOGLE_MAPS_API_KEY=server-key-not-the-browser-key
+TESSIE_API_TOKEN=
+TESSIE_VIN=
+
+# GOOGLE_SERVICE_ACCOUNT_JSON is a single-line JSON blob.
+# Prefer `wrangler secret put GOOGLE_SERVICE_ACCOUNT_JSON` over this file.

@@ -1,0 +1,13 @@
+node_modules/
+playwright-report/
+test-results/
+blob-report/
+.local/
+*.local.json
+secrets/
+private-lists/
+data/private/
+benchmark-results.json
+worker/.dev.vars
+worker/.wrangler/
+worker/node_modules/
