@@ -1,0 +1,14 @@
+{
+  "name": "blockwalk",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "bench": "node tests/benchmark.js",
+    "e2e": "playwright test",
+    "serve": "node tests/serve.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1"
+  }
+}
